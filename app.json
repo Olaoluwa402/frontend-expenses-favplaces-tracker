@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expense-tracker",
+    "name": "expense tracker",
     "slug": "expense-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.olaoluwa402.expensetracker"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.olaoluwa402.expensetracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b1f1eba-d5b0-4122-8e30-12cc7eb2c03b"
+      }
     }
   }
 }
